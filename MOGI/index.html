@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>+Mogi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><br>
+        <div class="logo"><br>
+            <a href="index (1).html"><img src="img/logo.jpeg" alt="Logo"></a>
+            <h2>Transparência de Mogi das Cruzes - SP</h2><br>
+        </div>
+        <br>
+        <form action=" " method="POST">
+            <div class="search">
+                <input type="search" id="busca" placeholder="Pesquisar..." name="q">
+                <button type="submit"><img src="img/Search.png" class="img_search" alt="pesquisa"></button>
+            </div>
+        </form>
+        <h3>Filtros de pesquisa:</h3>
+        <div class="buttons">
+            <button class="filtros nome">Nome</button>
+            <button class="filtros cargo" onclick=" ">Cargo</button>
+            <button class="filtros projetos" onclick=" ">Projetos</button>
+            <button class="filtros faixa" onclick=" ">Faixa Salarial</button>
+            <button class="filtros data" onclick=" ">Data</button>
+            <button class="filtros item" onclick=" ">Item</button>
+        </div>
+
+        <div class="barrasFiltro">
+            <ul>
+                <li><input type="search" class="name hide" placeholder="Nome..." name="q">
+                <button type="submit" class="buttonName hide"><img src="img/Search.png" class="img_search" alt="pesquisa">Pesquisar</button></li>
+
+                <li><input type="search" class="role hide" placeholder="Cargo..." name="q">
+                <button type="submit" class="buttonRole hide"><img src="img/Search.png" class="img_search" alt="pesquisa">Pesquisar</button></li>
+
+                <li><input type="search" class="projects hide" placeholder="Projetos..." name="q">
+                <button type="submit" class="buttonProjects hide"><img src="img/Search.png" class="img_search" alt="pesquisa">Pesquisar</button></li>
+
+                <li><input type="search" class="salary hide" placeholder="Faixa Salarial..." name="q">
+                <button type="submit" class="buttonSalary hide"><img src="img/Search.png" class="img_search" alt="pesquisa">Pesquisar</button></li>
+
+                <li><input type="search" class="date hide" placeholder="Data..." name="q">
+                <button type="submit" class="buttonDate hide"><img src="img/Search.png" class="img_search" alt="pesquisa">Pesquisar</button></li>
+
+                <li><input type="search" class="item1 hide" placeholder="Item..." name="q">
+                <button type="submit" class="buttonItem hide"><img src="img/Search.png" class="img_search" alt="pesquisa">Pesquisar</button></li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <div class="Description">
+            <h4>Sobre o site</h4>
+            <img class="img_mogi" src="img/img.png" alt="imagem de Mogi das Cruzes">
+            <div>
+                <h5>Este site tem como objetivo auxiliar você eleitor a obter informações sobre os candidatos
+                    às eleições na cidade de Mogi das Cruzes-SP, e a partir disso, buscar pelos seus direitos e
+                    eleger seus representantes.
+                </h5>
+            </div>
+        </div>
+        <!--jquery interval slider: Faixa Salarial-->
+        <h3>Mais Acessados</h3>
+        <div class="maisPesquisados"></div>
+        <table class = "tabelapesquisados">
+            <thead>
+            </thead>
+            <tbody>
+                <tr><td scope="row">R$2.500,00 - R$6.000,00</td></tr>
+                <tr><td scope="row">Projetos de lei ordinária</td></tr>
+                <tr><td scope="row">Auxiliar Administrativo</td></tr>
+                <tr><td scope="row">Médico</td></tr>
+                <tr><td scope="row">Prefeito</td></tr>
+                <tr><td scope="row">Carlos Almeida</td></tr>
+            </tbody>
+        </table>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <div class="logofooter"><br>
+            <img src="img/logo.jpeg" alt="Logo">
+        </div>
+    </footer>
+</body>
+
+</html>
